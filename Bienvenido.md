@@ -12,6 +12,21 @@ Bienvenido al proyecto de PP2
  Utilizaremos Git en un repositorio de GitHub para el control de versiones, dicho repositorio sera compartido y la cuenta que posee la rama Main no sera manipulada hasta la etapa de prueba donde se actualizara, cada miembro del equipo tendra su propia rama vinculadad a su cuenta donde realizara sus tareas.
  Para acceder al repositorio podran hacer click [aqui](https://github.com/OurProgramingHub/PP2.git "OurProgramingHub").
 
+ Ademas dejaremos una serie de comandos que deberan seguir para mantener el control de versiones lo mas limpio y ordenado posible.
+
+> Iniciar GIT 
+* Una vez creada una carpeta, desde la terminal vamos a iniciar un repositorio local para poder trabajar en el atravez del siguiente comando.
+
+`git init`
+
+* luego de esto podemos empezar a trabajar con el repositorio.
+
+> Clonar el repositorio.
+* El repositorio original del Hub debe ser clonado para ello utilizaremos el siguiente comando.
+
+`git clone `
+
+
 ---
 
 ### Tecnologias
