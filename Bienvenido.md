@@ -22,7 +22,7 @@ Bienvenido al proyecto de PP2
 * luego de esto podemos empezar a trabajar con el repositorio.
 
 > Clonar el repositorio.
-* El repositorio original del Hub debe ser clonado para ello utilizaremos el siguiente comando.
+* El repositorio original del Hub debe ser clonado, para ello utilizaremos el siguiente comando.
 
 `git clone `
 
