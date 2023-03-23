@@ -36,6 +36,14 @@ Bienvenido al proyecto de PP2
 
 * Recuerda que este comando debe ser ingresado en la terminal cada vez que abran su editor de codigo antes de cualquier cosa; luego de esto podemos empezar a trabajar con el repositorio.
 
+> Vincularce al repositorio.
+
+* El repositorio remoto del Hub va a ser el que posea todos los archivos del proyecto, este mismo debe ser clonado para poder usar los archivos, para ello utilizaremos el siguiente comando.
+
+> `git remote add origin https://github.com/OurProgramingHub/PP2.git`
+
+* Ya estamos vinculados con el repositorio remoto pero no podremos efectuar cambios en el; en este momento se deberia añadir tu usuario de GitHub como colaborador del proyecto. Te llegara una notificacion a tu correo y a tu cuenta de GitHub, verifica la invitacion y acepta ser colaborador del Hub.
+
 > Actualizar tu repositorio local
 
 * Las actualizaciones del repositorio remoto se avisaran con anticipacion, esto tiene como finalidad mantener el proyecto lo mas controlado y libre de errores entre actualizaciones, claro esta que despues de cada actualizacion los colaboradores deberan actualizar sus repositorios locales para mantener su copia del proyecto actualizada y funcional para esto se debe usar el comando.
@@ -43,14 +51,6 @@ Bienvenido al proyecto de PP2
 > `git pull`
 
 * Recuerda que las actualizaciones del proyecto seran previamente informadas, pero recomendamos que cada vez que inicien sus editores de codico ingresen este comando en la terminal despues de iniciar GIT y antes de realizar cualquier cambio al codigo para evitar errores con el repositorio.
-
-> Clonar el repositorio.
-
-* El repositorio remoto del Hub va a ser el que posea todos los archivos del proyecto, este mismo debe ser clonado para poder usar los archivos, para ello utilizaremos el siguiente comando.
-
-> `git clone https://github.com/OurProgramingHub/PP2.git`
-
-* Una vez clonado ya estamos vinculados con el repositorio remoto pero no podremos efectuar cambios en el; en este momento se deberia añadir tu usuario de GitHub como colaborador del proyecto. Te llegara una notificacion a tu correo y a tu cuenta de GitHub, verifica la invitacion y acepta ser colaborador del Hub.
 
 > Crea una rama de trabajo
 
