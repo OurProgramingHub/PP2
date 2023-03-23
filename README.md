@@ -88,7 +88,7 @@ Bienvenido al proyecto de PP2
 
 * Ahora debemos realizar un comentario para indicar los cambios que realizamos esto es importante para poder pasar a la instancia de guardado conocida como commit, el commit debe ser entendido como un empaquetado de datos donde le ponemos un nombre a una caja en la cual ponemos los cambios que realizamos, este paquete esta comprometido para ser subido al repositorio. El repositorio solo recibe paquetes y los ubica en los lugares correspondientes, ademas comentar los cambios es necesario para que el control de versiones se efectue de forma ordenada. Para efectuar el commit realizamos el siguiente comando con el con el comentario que queramos indicar entre comillas.
 
-> `git commit  -m "comentario x"`
+> `git commit -m "comentario x"`
 
 * Una vez realizado el commit se debera informar al gestor del Hub que llevara a cabo la actualizacion de la rama de prebas y posteriormente de la rama Main si todo se encuentra en orden.
 
