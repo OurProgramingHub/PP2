@@ -26,6 +26,16 @@ Bienvenido al proyecto de PP2
 
  Ademas dejaremos una serie de comandos que deberan seguir para mantener el control de versiones lo mas limpio y ordenado posible.
 
+> Vincularce al repositorio.
+
+* El repositorio remoto del Hub va a ser el que posea todos los archivos del proyecto, este mismo debe ser clonado para poder usar los archivos, para ello utilizaremos el siguiente comando.
+
+> `git clone https://github.com/OurProgramingHub/PP2.git`
+
+* Una vez clonado dentro de nuestra carpeta se creara otra carpeta donde esta el clon del repositorio original, abre esa carpeta desde tu editor de codigo abre una terminal e ingresa el comando `git init`.
+
+* Ya estamos vinculados con el repositorio remoto pero no podremos efectuar cambios en el; en este momento se deberia añadir tu usuario de GitHub como colaborador del proyecto. Te llegara una notificacion a tu correo y a tu cuenta de GitHub, verifica la invitacion y acepta ser colaborador del Hub.
+
 > Iniciar GIT 
 
 * Lo primero que haremos sera crear una carpeta donde se ubicara tu repositorio local, una vez creada la arrastraremos a nuestro editor de codigo de confianza y abriremos una terminal desde esa carpeta o desde la direccion de esa carpeta realizaremos el comando `cmd` para abrir una consola.
@@ -35,14 +45,6 @@ Bienvenido al proyecto de PP2
 > `git init`
 
 * Recuerda que este comando debe ser ingresado en la terminal cada vez que abran su editor de codigo antes de cualquier cosa; luego de esto podemos empezar a trabajar con el repositorio.
-
-> Vincularce al repositorio.
-
-* El repositorio remoto del Hub va a ser el que posea todos los archivos del proyecto, este mismo debe ser clonado para poder usar los archivos, para ello utilizaremos el siguiente comando.
-
-> `git remote add origin https://github.com/OurProgramingHub/PP2.git`
-
-* Ya estamos vinculados con el repositorio remoto pero no podremos efectuar cambios en el; en este momento se deberia añadir tu usuario de GitHub como colaborador del proyecto. Te llegara una notificacion a tu correo y a tu cuenta de GitHub, verifica la invitacion y acepta ser colaborador del Hub.
 
 > Actualizar tu repositorio local
 
