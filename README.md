@@ -27,27 +27,60 @@ Bienvenido al proyecto de PP2
  Ademas dejaremos una serie de comandos que deberan seguir para mantener el control de versiones lo mas limpio y ordenado posible.
 
 > Iniciar GIT 
-* Una vez creada una carpeta, desde la terminal vamos a iniciar un repositorio local para poder trabajar en el atravez del siguiente comando.
+
+* Lo primero que haremos sera crear una carpeta donde se ubicara tu repositorio local, una vez creada la arrastraremos a nuestro editor de codigo de confianza y abriremos una terminal desde esa carpeta o desde la direccion de esa carpeta realizaremos el comando `cmd` para abrir una consola.
+
+* Desde la terminal o consola vamos a iniciar un repositorio local para poder trabajar en el atravez del siguiente comando.
 
 > `git init`
 
-* luego de esto podemos empezar a trabajar con el repositorio.
+* Recuerda que este comando debe ser ingresado en la terminal cada vez que abran su editor de codigo antes de cualquier cosa; luego de esto podemos empezar a trabajar con el repositorio.
+
+> Actualizar tu repositorio local
+
+* Las actualizaciones del repositorio remoto se avisaran con anticipacion, esto tiene como finalidad mantener el proyecto lo mas controlado y libre de errores entre actualizaciones, claro esta que despues de cada actualizacion los colaboradores deberan actualizar sus repositorios locales para mantener su copia del proyecto actualizada y funcional para esto se debe usar el comando.
+
+> `git pull`
+
+* Recuerda que las actualizaciones del proyecto seran previamente informadas, pero recomendamos que cada vez que inicien sus editores de codico ingresen este comando en la terminal despues de iniciar GIT y antes de realizar cualquier cambio al codigo para evitar errores con el repositorio.
 
 > Clonar el repositorio.
-* El repositorio original del Hub debe ser clonado, para ello utilizaremos el siguiente comando.
 
-> `git clone `
+* El repositorio remoto del Hub va a ser el que posea todos los archivos del proyecto, este mismo debe ser clonado para poder usar los archivos, para ello utilizaremos el siguiente comando.
 
-> Pasar el trabajo al repositorio
-* Una vez terminemos los cambios que queremos realizar al codigo debemos subirlos al repositorio en nuestra rama; para esto debemos seleccionar la rama añadir los cambios que queremos realizar comentarlo y subirlo siguiendo esta serie de comandos.
+> `git clone https://github.com/OurProgramingHub/PP2.git`
+
+* Una vez clonado ya estamos vinculados con el repositorio remoto pero no podremos efectuar cambios en el; en este momento se deberia añadir tu usuario de GitHub como colaborador del proyecto. Te llegara una notificacion a tu correo y a tu cuenta de GitHub, verifica la invitacion y acepta ser colaborador del Hub.
+
+> Crea una rama de trabajo
+
+* Una vez verificado como colaborador lo siguiente sera crear una rama de trabajo (branch) para poder subir todo tu trabajo.
+
+> `git -branch`
+
+* Recuerda que tu rama de trabajo es tu espacio de desarrollo y de nadie mas porfavor evita modificar el codigo desde una rama que no sea la tuya.
+
+> Cambiar de rama
+
+* Una 
+
+> Subir tu trabajo al repositorio
+
+* Una vez terminemos los cambios que queremos realizar al codigo debemos subirlos al repositorio en nuestra rama; para esto debemos seleccionar la rama añadir los cambios que queremos realizar comprometerlos y subirlos siguiendo esta serie de comandos.
 
 > `git status`
+
 * Este comando te indicara cual es la rama en la que te encuentras y cuales son los archivos que fueron modificados y veras que el archivo no esta guardado en el repositorio porque esta marcado de color rojo. 
 * Supongamos que el archivo que queremos añadir o actualizar se llama archivo-x, para esto simplemente utilizamos el siguiente comando.
 
 > `git add archivo-x`
 
+* Si quisieramos añadir mas de un archivo solo debemos agregar un espacio al nombre del primer archivo y escribir el nombre del siguiente y asi sucesivamente; tambien podriamos realizar el comando `git add .` que añade todos los archivos de la carpeta al stage, pero esto no es una buena practica; ya que puede subir archivos no deseados a la instancia y entorpecer el flujo de trabajo haciendo que colicionen archivos de distintas ramas y generar perdidas de trabajo tanto de tu rama como la de tus compañeros es por eso que se recomienda no utilizar este comando.
+
 * Una vez añadido el archivo si utilizamos el comando `git status` veremos que ya no esta en color rojo si no en color verde, esto no significa que esta guardado en el repositorio solo indica que fue añadido a una instancia de trabajo conocida como stage.
-* Ahora debemos realizar un commit para indicar los cambios que realizamos esto es importante para poder pasar a la instancia de guardado el commit debe ser entendido como un empaquetado de datos donde le ponemos un nombre a una caja donde ponemos los cambios que realizamos, el repositorio solo recibe paquetes y los ubica en los lugares  
+
+* Ahora debemos realizar un comentario para indicar los cambios que realizamos esto es importante para poder pasar a la instancia de guardado conocida como commit, el commit debe ser entendido como un empaquetado de datos donde le ponemos un nombre a una caja en la cual ponemos los cambios que realizamos, este paquete esta comprometido para ser subido al repositorio. El repositorio solo recibe paquetes y los ubica en los lugares correspondientes, ademas comentar los cambios es necesario para que el control de versiones se efectue de forma ordenada. Para efectuar el commit realizamos el siguiente comando con el con el comentario que queramos indicar entre comillas.
+
+> `git commit  -m "comentario x"`
 
 ---
