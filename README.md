@@ -56,7 +56,13 @@ Bienvenido al proyecto de PP2
 
 * Una vez verificado como colaborador lo siguiente sera crear una rama de trabajo (branch) para poder subir todo tu trabajo.
 
-> `git -branch`
+* Lo primero que haremos sera verificar en que rama nos encontramos, atravez del siguiente comando.
+
+> `git branch`
+
+* Una vez verificamos en que rama nos encontramos lo siguiente sera crear una rama propia, con el siguiente comando.
+
+> `git checkout branch`
 
 * Recuerda que tu rama de trabajo es tu espacio de desarrollo y de nadie mas porfavor evita modificar el codigo desde una rama que no sea la tuya.
 
@@ -68,19 +74,22 @@ Bienvenido al proyecto de PP2
 
 * Una vez terminemos los cambios que queremos realizar al codigo debemos subirlos al repositorio en nuestra rama; para esto debemos seleccionar la rama añadir los cambios que queremos realizar comprometerlos y subirlos siguiendo esta serie de comandos.
 
-> `git status`
+> `git status -s`
 
-* Este comando te indicara cual es la rama en la que te encuentras y cuales son los archivos que fueron modificados y veras que el archivo no esta guardado en el repositorio porque esta marcado de color rojo. 
-* Supongamos que el archivo que queremos añadir o actualizar se llama archivo-x, para esto simplemente utilizamos el siguiente comando.
+* Este comando te indicara cual es la rama en la que te encuentras y cuales son los archivos que fueron modificados con una *M*, cuales fueron Añadidos con una *A* y cuales aun no fueron añadidos con *??* veras que los archivos no estan actualizados porque sus signos estan marcados de color rojo.
 
-> `git add archivo-x`
+* Supongamos que el archivo que queremos añadir o actualizar es un archivo de texto y se llama archivo-x, para esto simplemente utilizamos el siguiente comando.
+
+> `git add archivo-x.txt`
 
 * Si quisieramos añadir mas de un archivo solo debemos agregar un espacio al nombre del primer archivo y escribir el nombre del siguiente y asi sucesivamente; tambien podriamos realizar el comando `git add .` que añade todos los archivos de la carpeta al stage, pero esto no es una buena practica; ya que puede subir archivos no deseados a la instancia y entorpecer el flujo de trabajo haciendo que colicionen archivos de distintas ramas y generar perdidas de trabajo tanto de tu rama como la de tus compañeros es por eso que se recomienda no utilizar este comando.
 
-* Una vez añadido el archivo si utilizamos el comando `git status` veremos que ya no esta en color rojo si no en color verde, esto no significa que esta guardado en el repositorio solo indica que fue añadido a una instancia de trabajo conocida como stage.
+* Una vez añadido el archivo si utilizamos el comando `git status -s` veremos que su signo ya no esta en color rojo si no en color verde, esto no significa que esta guardado en el repositorio solo indica que fue añadido a una instancia de trabajo conocida como stage.
 
 * Ahora debemos realizar un comentario para indicar los cambios que realizamos esto es importante para poder pasar a la instancia de guardado conocida como commit, el commit debe ser entendido como un empaquetado de datos donde le ponemos un nombre a una caja en la cual ponemos los cambios que realizamos, este paquete esta comprometido para ser subido al repositorio. El repositorio solo recibe paquetes y los ubica en los lugares correspondientes, ademas comentar los cambios es necesario para que el control de versiones se efectue de forma ordenada. Para efectuar el commit realizamos el siguiente comando con el con el comentario que queramos indicar entre comillas.
 
 > `git commit  -m "comentario x"`
+
+* Una vez realizado el commit se debera informar al gestor del Hub que llevara a cabo la actualizacion de la rama de prebas y posteriormente de la rama Main si todo se encuentra en orden.
 
 ---
