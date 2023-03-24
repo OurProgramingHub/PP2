@@ -25,6 +25,16 @@ Bienvenido al proyecto de PP2
  Para acceder al repositorio podran hacer click [aqui](https://github.com/OurProgramingHub/PP2.git "OurProgramingHub").
 
  Ademas dejaremos una serie de comandos que deberan seguir para mantener el control de versiones lo mas limpio y ordenado posible.
+ 
+> Iniciar GIT 
+
+* Lo primero que haremos sera crear una carpeta donde se ubicara tu repositorio local, una vez creada la arrastraremos a tu editor de codigo de confianza y abriremos una terminal desde esa carpeta o desde la direccion de esa carpeta realizaremos el comando `cmd` para abrir una consola.
+
+* Desde la terminal o consola vamos a iniciar un repositorio local para poder trabajar en el atravez del siguiente comando.
+
+> `git init`
+
+* Recuerda que este comando debe ser ingresado en la terminal cada vez que abran su editor de codigo antes de cualquier cosa; luego de esto podemos empezar a trabajar con el repositorio.
 
 > Vincularce al repositorio.
 
@@ -32,19 +42,9 @@ Bienvenido al proyecto de PP2
 
 > `git clone https://github.com/OurProgramingHub/PP2.git`
 
-* Una vez clonado dentro de nuestra carpeta se creara otra carpeta donde esta el clon del repositorio original, abre esa carpeta desde tu editor de codigo abre una terminal e ingresa el comando `git init`.
+* Una vez clonado dentro de nuestra carpeta se creara otra carpeta donde esta el clon del repositorio original, ahora arrastraremos la carpeta con el clon del repositorio a tu editor de codigo de confianza y abriremos una terminal desde esa carpeta o desde la direccion de esa carpeta realizaremos el comando `cmd` para abrir una consola e ingresaremos el comando `git init`.
 
 * Ya estamos vinculados con el repositorio remoto pero no podremos efectuar cambios en el; en este momento se deberia añadir tu usuario de GitHub como colaborador del proyecto. Te llegara una notificacion a tu correo y a tu cuenta de GitHub, verifica la invitacion y acepta ser colaborador del Hub.
-
-> Iniciar GIT 
-
-* Lo primero que haremos sera crear una carpeta donde se ubicara tu repositorio local, una vez creada la arrastraremos a nuestro editor de codigo de confianza y abriremos una terminal desde esa carpeta o desde la direccion de esa carpeta realizaremos el comando `cmd` para abrir una consola.
-
-* Desde la terminal o consola vamos a iniciar un repositorio local para poder trabajar en el atravez del siguiente comando.
-
-> `git init`
-
-* Recuerda que este comando debe ser ingresado en la terminal cada vez que abran su editor de codigo antes de cualquier cosa; luego de esto podemos empezar a trabajar con el repositorio.
 
 > Actualizar tu repositorio local
 
@@ -76,7 +76,7 @@ Bienvenido al proyecto de PP2
 
 > Subir tu trabajo al repositorio
 
-* Una vez terminemos los cambios que queremos realizar al codigo debemos subirlos al repositorio en nuestra rama; para esto debemos seleccionar la rama añadir los cambios que queremos realizar comprometerlos y subirlos siguiendo esta serie de comandos.
+* Una vez terminemos los cambios que queremos realizar al codigo debemos subirlos al repositorio en nuestra rama; para esto debemos seleccionar la rama, añadir los cambios que queremos realizar, comprometerlos y subirlos siguiendo esta serie de comandos.
 
 > `git status -s`
 
