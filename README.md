@@ -68,9 +68,9 @@ Bienvenido al proyecto de PP2
 
 * Recuerda que tu rama de trabajo es tu espacio de desarrollo y de nadie mas porfavor evita modificar el codigo desde una rama que no sea la tuya.
 
-* Luego de crear tu rama deberas direcionarte a ella, utiliza el siguiente comando
+* Luego de crear tu rama deberas direcionarte a ella, utiliza el siguiente comando.
 
-> 'git checkout tu-rama'
+> `git checkout tu-rama`
 
 * Una vez en tu rama ya eres libre de trabajar en el codigo.
 
