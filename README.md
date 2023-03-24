@@ -50,9 +50,9 @@ Bienvenido al proyecto de PP2
 
 * Las actualizaciones del repositorio remoto se avisaran con anticipacion, esto tiene como finalidad mantener el proyecto lo mas controlado y libre de errores entre actualizaciones, claro esta que despues de cada actualizacion los colaboradores deberan actualizar sus repositorios locales para mantener su copia del proyecto actualizada y funcional para esto se debe usar el comando.
 
-> `git pull`
+> `git fetch`
 
-* Recuerda que las actualizaciones del proyecto seran previamente informadas, pero recomendamos que cada vez que inicien sus editores de codico ingresen este comando en la terminal despues de iniciar GIT y antes de realizar cualquier cambio al codigo para evitar errores con el repositorio.
+* Recuerda que las actualizaciones del proyecto seran previamente informadas, pero recomendamos que cada vez que inicien sus editores de codigo ingresen este comando en la terminal despues de iniciar GIT y antes de realizar cualquier cambio al codigo para evitar errores con el repositorio.
 
 > Crea una rama de trabajo
 
@@ -64,13 +64,15 @@ Bienvenido al proyecto de PP2
 
 * Una vez verificamos en que rama nos encontramos lo siguiente sera crear una rama propia, con el siguiente comando.
 
-> `git checkout branch`
+> `git branch tu-rama`
 
 * Recuerda que tu rama de trabajo es tu espacio de desarrollo y de nadie mas porfavor evita modificar el codigo desde una rama que no sea la tuya.
 
-> Cambiar de rama
+* Luego de crear tu rama deberas direcionarte a ella, utiliza el siguiente comando
 
-* Una 
+> 'git checkout tu-rama'
+
+* Una vez en tu rama ya eres libre de trabajar en el codigo.
 
 > Subir tu trabajo al repositorio
 
@@ -92,6 +94,14 @@ Bienvenido al proyecto de PP2
 
 > `git commit -m "comentario x"`
 
-* Una vez realizado el commit se debera informar al gestor del Hub que llevara a cabo la actualizacion de la rama de prebas y posteriormente de la rama Main si todo se encuentra en orden.
+* Una vez comprometido ya tenemos todo en orden para subirlo al repositorio desde nuestra rama. Desde aqui debemos usar un comando que va a realizar una verificacion del repositorio principal y lo actualizara en su defecto al mismo tiempo va iniciar un proceso conocido como merge que nos hara elegir que version de cada archivo queremos conservar, es importante seleccionar bien estas versiones para evitar conflictos con el repositorio. Este comando es.
+
+> `git pull`
+
+* Despues de realizar dicho merge se sube al repositorio remoto desde nuestra rama con el siguiente comando.
+
+> `git push -u origin tu-rama`
+
+* Una vez realizado push se debera informar al gestor del Hub que llevara a cabo la actualizacion de la rama de pruebas y posteriormente de la rama Main si todo se encuentra en orden.
 
 ---
